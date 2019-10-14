@@ -1,5 +1,14 @@
 <html>
-<body>
-<p>Hello!</p>
-</body>
+  <body>
+    <p>Hello!</p>
+    <p id="hej">0</p>
+    <script>
+        var i = 0;
+      
+        setInterval(function(){
+          i = i + 1;
+          document.getElementById("hej").innerHTML = i;
+        }, 1000);
+    </script>
+  </body>
 </html>
